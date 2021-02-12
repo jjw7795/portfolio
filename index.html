@@ -30,7 +30,7 @@
         </div>
 
         <div class="navbar__menu">
-            <ul class="navbar__menu">
+            <ul >
                 <li class="navbar__menu__item active"data-link="#home">Home</li>
                 <li class="navbar__menu__item"data-link="#about">About</li>
                 <li class="navbar__menu__item"data-link="#skills">Skills</li>
@@ -217,28 +217,28 @@
             <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-            <button class="category__btn active">All
+            <button class="category__btn selected" data-filter="*">All
                 <span class="category__count">8</span>
             </button>
-            <button class="category__btn">Front-end
+            <button class="category__btn"data-filter="front-end">Front-end
                 <span class="category__count">4</span>
             </button>
-            <button class="category__btn">Back-end
+            <button class="category__btn"data-filter="back-end">Back-end
                 <span class="category__count">3</span>
             </button>
-            <button class="category__btn">Mobile
+            <button class="category__btn"data-filter="mobile">Mobile
                 <span class="category__count">2</span>
             </button>
         </div>
         <div class="work__projects">
-            <a href="" class="project" target="blank">
+            <a href="" class="project" target="blank" data-type="front-end">
                 <img src="imgs/projects/youtube.png" alt="Youtube" class="project__img">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
                     <span>Clone coding with HTML and CSS</span>
                 </div>
             </a>
-            <a href="" class="project" target="blank">
+            <a href="" class="project" target="blank"data-type="back-end">
                 <img src="imgs/projects/navbar.png" alt="" class="projec__img">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
@@ -246,42 +246,42 @@
                 </div>
             </a>
 
-            <a href="" class="project" target="black">
+            <a href="" class="project" target="black"data-type="mobile">
                 <img src="imgs/projects/game.png" alt="" class="project__img">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
                     <span>Clone coding with HTML and CSS</span>
                 </div>
             </a>
-            <a href="" class="project" target="black">
+            <a href="" class="project" target="black"data-type="mobile">
                 <img src="imgs/하늘공원3.jpg" alt="" class="project__img">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
                     <span>Clone coding with HTML and CSS</span>
                 </div>
             </a>
-            <a href="" class="project" target="black">
+            <a href="" class="project" target="black"data-type="front-end">
                 <img src="imgs/하늘공원3.jpg" alt="" class="project__img">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
                     <span>Clone coding with HTML and CSS</span>
                 </div>
             </a>
-            <a href="" class="project" target="black">
+            <a href="" class="project" target="black"data-type="back-end">
                 <img src="imgs/하늘공원3.jpg" alt="" class="project__img">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
                     <span>Clone coding with HTML and CSS</span>
                 </div>
             </a>
-            <a href="" class="project" target="black">
+            <a href="" class="project" target="black"data-type="mobile">
                 <img src="imgs/하늘공원3.jpg" alt="" class="project__img">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
                     <span>Clone coding with HTML and CSS</span>
                 </div>
             </a>
-            <a href="" class="project" target="black">
+            <a href="" class="project" target="black"data-type="back-end">
                 <img src="imgs/하늘공원3.jpg" alt="" class="project__img">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
@@ -292,7 +292,7 @@
         </div>
         </div>
     </section>
-
+<!-- Testimonials -->
     <section id="testimonials" class="section">
         <section class="section__container">
             <h1>Testimonials</h1>
@@ -322,7 +322,7 @@
         </section>
 
     </section>
-
+<!-- Contact -->
     <section id="contact" class="section">
         <h1 class="contact__title">Let's talk</h1>
         <h2 class="contact__email">jjw7795@naver.com</h2>
@@ -339,7 +339,10 @@
 
         </div>
     </section>
-
+<!-- Arrow up -->
+  <button class="arrow-up">
+    <i class="fas fa-arrow-up"></i>
+  </button>
 
 </body>
 
